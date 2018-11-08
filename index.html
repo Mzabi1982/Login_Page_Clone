@@ -56,11 +56,11 @@
         margin: auto;
     }
     .logo img{
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
         
     }
     .logo{
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     label{
@@ -70,18 +70,18 @@
     }
     .text-input{
 
-        margin-bottom: 1.3rem;
+        margin-bottom: 0.5rem;
         width: 100%;
         border-radius: 2px;
         background: #181818;
         border:1px solid #555;
         color:#ccc;
-        padding:1rem;
+        padding:0.5rem;
     }
 
     button{
         width: 100%;
-        padding: 1rem;
+        padding: 0.7rem;
         text-align: center;
         border-radius: 2px;
         background: orange;
@@ -89,10 +89,73 @@
         display: block;
         text-decoration: none;
         color:white;
-        transition: all 0.5s;
+        transition:background-color 0.5s;
+        cursor: pointer;
+
+    }
+    .link{
+        
+        
+        text-align: center;
 
     }
 
+    .link a{
+        display:inline-block;
+        padding: 0.2rem;
+        text-decoration:none;
+        color: #fff;
+        
+        
+    }
+
+   button:hover{
+       background: #000;
+       color: white;
+   }
+
+   .secondary, .link, .or{
+       width: 60%;
+   }
+
+
+   .secondary{
+       width: 60%;
+        padding: 0.6rem;
+        text-align: center;
+      
+        
+        border:1px solid #567;
+        display: block;
+        text-decoration: none;
+        color:white;
+        transition:background-color 0.5s;
+        cursor: pointer;
+        margin-top: 0.6rem;
+        margin-bottom: 2rem;
+        
+        
+
+   }
+
+   .or{
+       display: flex;
+       padding: 0.5rem;
+       margin: 0.5rem;
+   }
+
+   .bar{
+       flex:2
+   }
+   span{
+       flex:1%;
+       text-align: center;
+   }
+
+   .secondary:hover{
+    background: #000;
+       color: gray;
+   }
 
     @media (min-width:1200px) {
         #left{
